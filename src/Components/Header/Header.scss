@@ -1,0 +1,26 @@
+* {
+  border: 1px gold solid;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #455e8b;
+  color: #ffffff;
+  font-weight: bold;
+}
+.logo {
+  height: 50px;
+}
+.login-button {
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #455e8b;
+  border-radius: 10px;
+}
