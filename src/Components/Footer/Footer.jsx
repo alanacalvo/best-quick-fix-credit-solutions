@@ -33,8 +33,10 @@ function Footer() {
         <p>
           © Copyright 2017. Quick Fix Credit Solutions. All rights reserved.
         </p>
-        <a href="_blank">Terms of Service</a> |{" "}
-        <a href="_blank">Privacy Policy</a>
+        <div>
+          <a href="_blank">Terms of Service</a> |{" "}
+          <a href="_blank">Privacy Policy</a>
+        </div>
       </div>
       <div className="contact-us">
         <h1>Contact Us</h1>

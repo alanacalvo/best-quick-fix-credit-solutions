@@ -1,0 +1,16 @@
+.services {
+  height: 100vh;
+  background-image: url("business-people.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .title {
+  }
+  .card-div {
+    .cards {
+      height: 300px;
+      width: 150px;
+      border: black 2px solid;
+    }
+  }
+}

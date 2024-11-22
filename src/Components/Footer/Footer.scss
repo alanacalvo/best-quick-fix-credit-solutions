@@ -1,22 +1,38 @@
 footer {
   display: flex;
   align-items: flex-start;
-  width: 100%;
+  justify-content: space-between;
+  width: 100vw;
   height: 250px;
-  position: fixed;
-  bottom: 0;
+  // position: fixed;
+  // bottom: 0;
 }
 .socials {
+  height: 100%;
   width: 20%;
   display: flex;
-  justify-content: space-evenly;
+  // flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  a {
+    padding: 10px;
+  }
 }
 .copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
 }
 .contact-us {
   display: flex;
   flex-direction: column;
   align-items: end;
+  padding-right: 50px;
+  p {
+    margin: 5px;
+  }
 }
 ion-icon {
   color: black;

@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 100px;
+  height: 50vh;
+}
+.divider {
+  background-color: #455e8b;
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.button {
+  height: 50px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #455e8b;
+  border-radius: 10px;
+}
