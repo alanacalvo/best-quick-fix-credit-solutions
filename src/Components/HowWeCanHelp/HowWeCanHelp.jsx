@@ -3,7 +3,7 @@ import "./HowWeCanHelp.scss";
 
 function HowWeCanHelp() {
   return (
-    <div className="help">
+    <section className="help">
       <div className="video">
         <iframe
           width="700"
@@ -58,7 +58,7 @@ function HowWeCanHelp() {
           <button className="button">BOOK FREE CREDIT CONSULTATION</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

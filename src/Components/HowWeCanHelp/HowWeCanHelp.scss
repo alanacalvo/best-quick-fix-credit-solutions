@@ -1,9 +1,12 @@
 .help {
   display: flex;
   padding: 20px;
+  height: 70vh;
 }
 .video {
   margin: 15px;
+  display: flex;
+  align-items: center;
 }
 .copy {
   height: 450px;

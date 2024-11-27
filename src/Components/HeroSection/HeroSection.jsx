@@ -3,7 +3,7 @@ import "./HeroSection.scss";
 
 function HeroSection() {
   return (
-    <>
+    <section>
       <div className="hero">
         <h1>Best Quick Fix Credit Solutions</h1>
         <h2>"Let's Give Your Credit a Quick Fix!"</h2>
@@ -22,7 +22,7 @@ function HeroSection() {
         </h2>
         <button className="button">BOOK FREE CREDIT CONSULTATION</button>
       </div>
-    </>
+    </section>
   );
 }
 
