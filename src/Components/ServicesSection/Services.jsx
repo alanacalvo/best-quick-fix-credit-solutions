@@ -31,7 +31,8 @@ function Services() {
         <div className="cards">
           <img src={card2} alt="" />
           <div className="text">
-            <h2>FREE Credit Consultation</h2>
+            <h2>FREE</h2>
+            <h2>Credit Consultation</h2>
             <p>
               You're not the only one who didn't learn about how to manage your
               Credit during school. Good news it is never too late to start
@@ -43,7 +44,8 @@ function Services() {
         <div className="cards">
           <img src={card3} alt="" />
           <div className="text">
-            <h2>FREE Credit Analysis</h2>
+            <h2>FREE</h2>
+            <h2>Credit Analysis</h2>
             <p>
               We offer Free Credit Analysis to help provide a better
               understanding what the first steps are to see what is ACTUALLY

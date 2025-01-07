@@ -2,6 +2,12 @@ import React from "react";
 import "./HowWeCanHelp.scss";
 
 function HowWeCanHelp() {
+  const handleFormClick = () => {
+    window.open(
+      "https://quickfixcreditsolutions.scorexer.com/jsp/custom_form.jsp?tab_id=a1EvUmlBMGIrY1dHSzhMMmI4aitqZz09&affiliate_id=WmtxcnRIUXpGL1lHY1VNQmIySzRwQT09&redirect_url=",
+      "_blank"
+    );
+  };
   return (
     <section className="help">
       <div className="video">
@@ -55,7 +61,9 @@ function HowWeCanHelp() {
           you soon!
         </p>
         <div className="button-div">
-          <button className="button">BOOK FREE CREDIT CONSULTATION</button>
+          <button onClick={handleFormClick} className="button">
+            REQUEST FREE CREDIT CONSULTATION
+          </button>
         </div>
       </div>
     </section>

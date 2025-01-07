@@ -7,7 +7,7 @@ footer {
   // position: fixed;
   // bottom: 0;
 }
-.socials {
+.white-space {
   height: 100%;
   width: 20%;
   display: flex;
@@ -24,6 +24,9 @@ footer {
   align-items: center;
   height: 100%;
   justify-content: center;
+  p {
+    padding: 10px;
+  }
 }
 .contact-us {
   display: flex;

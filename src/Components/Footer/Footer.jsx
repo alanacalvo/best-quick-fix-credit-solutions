@@ -5,29 +5,7 @@ import logo from "./logo.jpg";
 function Footer() {
   return (
     <footer>
-      <div className="socials">
-        <a
-          href="https://www.instagram.com/makeupbymelvinn/?igshid=MzRlODBiNWFlZA%3D%3D"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <ion-icon name="logo-facebook" className="facebook" />
-        </a>
-        <a
-          href="https://www.instagram.com/makeupbymelvinn/?igshid=MzRlODBiNWFlZA%3D%3D"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <ion-icon name="logo-instagram" className="instagram" />
-        </a>
-        <a
-          href="https://www.instagram.com/makeupbymelvinn/?igshid=MzRlODBiNWFlZA%3D%3D"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <ion-icon name="logo-linkedin" />
-        </a>
-      </div>
+      <div className="white-space"></div>
       <div className="copyright">
         <img src={logo} alt="logo" className="logo" />
         <p>
